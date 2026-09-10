@@ -1,0 +1,40 @@
+{
+  "name": "Seed & Equipment Distribution Tracking System",
+  "short_name": "DistroTrack",
+  "description": "Centralized platform for managing agricultural resource distribution, farmer records, inventory, and offline tracking.",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#22C55E",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "img/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "index.php#dashboard",
+      "description": "View distribution statistics and alerts"
+    },
+    {
+      "name": "Farmers",
+      "url": "index.php#farmers",
+      "description": "Manage farmer database"
+    },
+    {
+      "name": "Distributions",
+      "url": "index.php#distributions",
+      "description": "Record seed and equipment distribution"
+    },
+    {
+      "name": "Inventory",
+      "url": "index.php#inventory",
+      "description": "Track available seeds and equipment"
+    }
+  ]
+}

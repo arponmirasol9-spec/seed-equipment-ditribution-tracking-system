@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2FAD9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#052E16" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Circle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Sprout / Distribution Plant Icon -->
+  <g filter="url(#shadow)" transform="translate(64, 64) scale(0.75)">
+    <!-- Sprout Base / Seed -->
+    <path d="M256 390 C256 390 140 310 140 190 C140 100 200 65 256 125 C312 65 372 100 372 190 C372 310 256 390 256 390 Z" fill="url(#leafGrad)"/>
+    <!-- Stem Line -->
+    <path d="M256 160 L256 350" stroke="#16A34A" stroke-width="18" stroke-linecap="round"/>
+    <path d="M256 240 Q210 210 190 170" stroke="#16A34A" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M256 280 Q302 250 322 210" stroke="#16A34A" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
